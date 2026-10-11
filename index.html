@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday Rio ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="logo" href="#home">Rio Birthday💗</a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#memories">Memories</a>
+    <a href="#heart-hunter">Heart Hunter</a>
+    <a href="#letter" id="letterNav" hidden>Letter</a>
+    <a href="#love-quiz" id="quizNav" hidden>Love Quiz</a>
+    <a href="#gift" id="giftNav" hidden>Gift</a>
+    <a href="#boyfriend-survival" id="survivalNav" hidden>Survival Test 😂</a>
+    <a href="#coupons" id="couponsNav" hidden>Birthday Coupons</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section id="home" class="hero-section">
+    <div class="hero">
+      <div class="big-heart">💖</div>
+      <p class="script hero-kicker">A special day for someone special...</p>
+      <h1>Happy Birthday,<br>Rio! 💗</h1>
+      <p>Another year, another reason to be grateful for you. You make my world brighter just by being in it. Today is all about YOU!</p>
+      <button type="button" onclick="document.querySelector('#memories').scrollIntoView({behavior:'smooth'})">Explore Your Surprise →</button>
+      <div class="date">🎂 17 October 2026</div>
+    </div>
+  </section>
+
+  <!-- MEMORIES -->
+  <section id="memories" class="section">
+    <h2>💗 Our Memories</h2>
+    <p class="subtitle">A collection of our favourite moments...</p>
+    <div class="gallery">
+      <div class="photo"><img src="photo 7.jpeg" alt="Our first memory"><p>Unexpected Chapter💕</p></div>
+      <div class="photo"><img src="photo 2.jpeg" alt="A favourite photo"><p>No Caption Needed ♡</p></div>
+      <div class="photo"><img src="photo 11.jpeg" alt="A special day"><p>My Favourite Disaster😂❤️</p></div>
+      <div class="photo"><img src="photo 4.jpeg" alt="A happy memory"><p>The Art of Being Us✨</p></div>
+    </div>
+    <p class="section-note">Here's to many more beautiful memories together! 💞</p>
+  </section>
+
+  <!-- HEART HUNTER -->
+  <section id="heart-hunter" class="section game-section">
+    <div class="content-card">
+      <p class="eyebrow">LEVEL 1 💗</p>
+      <h2>Heart Hunter 🎮</h2>
+      <p>Catch 10 hearts in 30 seconds to unlock your first secret letter, Rio!</p>
+      <div class="game-stats">
+        <span>Hearts: <strong id="heartScore">0</strong>/10</span>
+        <span>Time: <strong id="heartTime">30</strong>s</span>
+      </div>
+      <div id="heartPlayfield" class="heart-playfield" aria-label="Heart Hunter game area"></div>
+      <button id="startHeartGame" type="button">Start Playing 💖</button>
+      <p id="heartMessage" class="feedback" aria-live="polite">Ready, birthday boy? 💕</p>
+    </div>
+  </section>
+
+  <!-- LETTER: UNLOCKS AFTER GAME WIN -->
+  <section id="letter" class="section locked-section" hidden>
+    <div class="content-card">
+      <p class="eyebrow">FIRST SECRET UNLOCKED 💌</p>
+      <h2>💌 Letter For You</h2>
+      <p class="subtitle">A little something from my heart to yours</p>
+      <button id="openLetterButton" type="button">Open Your Letter 💗</button>
+      <div class="letter-paper" id="letterPaper" hidden>
+        
+        <h3>My Dearest Rio, 💕</h3>
+        <p>
+          Happy Birthday, my love! ❤️🎂
+        </p>
+
+        <p>
+          One of the memories I'll always carry with me is our college symposium during our third year. I was representing our department, and you were representing yours. That was the first time we really talked in person, and I still remember how our conversations started growing from there. We began talking about so many things, and little by little, we became closer. 🥹💗
+        </p>
+
+        <p>
+          And our first photo together! 📸❤️ Maybe it was just one picture taken during a college symposium, but to me, it's a little piece of our story. Whenever I think about it, I remember how unexpectedly everything started changing between us.
+        </p>
+
+        <p>
+          I also remember that night when you called me and explained what had happened. Akka was online with me at that time, too. You later called again and promised me that you wouldn't drink anymore, even though I hadn't asked you to make that promise. It was one of those moments when I realized that the things I said and felt mattered to you. 🫂
+        </p>
+
+        <p>
+          When you eventually told me about smoking, you asked for my confirmation, and I told you that I would give you my answer within one year. Time passed, and somewhere between our conversations, memories, and all the little things we shared, I started understanding my own heart better.
+        </p>
+
+        <p>
+          I decided on 21.04.2026 that I wanted to tell you my feelings on my birthday. And when I finally told you that I loved you, it felt like we were stepping into a new chapter of our story. ❤️🥹
+        </p>
+
+        <p>
+          When I look back now, I realize how many little moments brought us here. The conversations, the first time we talked in person, our first photo, the calls, and the feelings that slowly became clearer to me — every part has its own place in my heart.
+        </p>
+
+        <p>
+          Thank you for sharing your stories with me, for letting me know the real you, and for giving me memories that I can look back on with a smile. I hope we continue to understand each other, communicate honestly, support each other's dreams, and grow together. I want our relationship to be a place where we both feel loved, respected, and safe enough to be ourselves. 💕
+        </p>
+
+        <p>
+          On your birthday, I wish you all the happiness you deserve, success in everything you work towards, good health, peace of mind, and the courage to follow your dreams. I hope this new year of your life brings you countless reasons to smile.
+        </p>
+
+        <p>
+          And selfishly, I hope I get to be part of many more of those smiles. I want more photos with you, more long conversations, more bike rides, more silly fights that end in laughter, more celebrations, and more ordinary days that become beautiful simply because we shared them. 😂❤️
+        </p>
+
+        <p>
+          No matter how our story began, I'm happy about the chapter we're writing now. Thank you for becoming such a special part of my life. I'll always treasure the memories we've made and look forward to the ones still waiting for us.
+        </p>
+
+        <p>
+          Happy Birthday once again, my favourite human, my Rio. I hope you feel loved today, tomorrow, and on all the ordinary days in between. I love you more than I can properly explain. 🫂💗
+        </p>
+
+        <p>
+          Forever yours,<br>
+          Your Ashwini ❤️
+        </p>
+        <button id="continueToQuiz" type="button">Continue to Our Love Quiz 💕</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOVE QUIZ: UNLOCKS AFTER LETTER IS OPENED -->
+  <section id="love-quiz" class="section" hidden>
+    <div class="content-card">
+      <p class="eyebrow">LEVEL 2 💕</p>
+      <h2>How Well Do You Know Us? 🥹</h2>
+      <p class="subtitle">Answer all 20 questions to find your next surprise.</p>
+        <div class="quiz-score">
+          <p>💕 Your Love Score 💕</p>
+          <h3><span id="quizScore">0</span> / 15</h3>
+          <p id="scoreMessage">Let's see how well you know our story! 🥹❤️</p>
+        </div>
+      <p id="quizProgress" class="quiz-progress">Question 1 of 20</p>
+      <h3 id="quizQuestion" class="quiz-question"></h3>
+      <div id="quizOptions" class="quiz-options"></div>
+      <textarea id="quizAnswer" rows="3" placeholder="Type your answer, Rio... 💗" hidden></textarea>
+      <p id="quizFeedback" class="feedback" aria-live="polite"></p>
+      <div class="quiz-controls">
+        <button id="quizSubmit" type="button">Submit Answer 💕</button>
+        <button id="quizNext" type="button" hidden>Next Question ➜</button>
+      </div>
+      <div id="finalChallenge" class="final-challenge" hidden>
+        <h3>🔐 One Last Little Question</h3>
+        <p>If I had rejected you one more time, would you still have tried? Tell me what's in your heart. 🥹❤️</p>
+        <textarea id="finalAnswer" rows="4" placeholder="Tell me what's in your heart... 💌"></textarea>
+        <button id="submitFinalAnswer" type="button">Unlock My Special Gift 🎁</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GIFT: UNLOCKS AFTER QUIZ AND FINAL CHALLENGE -->
+  <section id="gift" class="section locked-section" hidden>
+    <div class="content-card">
+      <p class="eyebrow">YOUR SECOND SECRET 🎁</p>
+      <h2>🎁 Your Special Gift</h2>
+      <p class="subtitle">A little box of love, just for you...</p>
+      <button id="openGiftButton" class="gift-box" type="button" aria-label="Open your special gift">🎁</button>
+      <p>Tap the gift box to open your surprise!</p>
+      <div class="surprise" id="surprise" hidden>
+          <h3>Surprise, Rio! 💖🥹</h3>
+
+          <p>
+            My Rio, ❤️
+          </p>
+
+          <p>
+            Do you remember how everything started? You had been trying to get close to me since our second year. You kept trying to talk to me, sharing your stories and your college-life experiences, and telling me why you fell in love with me. And me? I kept rejecting you, without realizing how much space you were slowly taking up in my life. 🥹💗
+          </p>
+
+          <p>
+            You gave me your time, your attention, your feelings, and so many chances to understand your heart. But back then, I wasn't able to give you the same love you were giving me. Maybe I didn't understand your feelings properly, or maybe I simply wasn't ready to understand my own. Still, you kept trying to make me see how much I meant to you. ❤️
+          </p>
+
+          <p>
+            Sometimes I wonder how you felt every time I said no. Did you ever feel tired of trying? Did you ever think about giving up on me? Did you ever wonder whether I would feel the same way about you someday? I may never know all the answers, but one thing I know is that your feelings were genuine, and your efforts became a part of our story that I'll never forget. 🫂💕
+          </p>
+
+          <p>
+            And look at us now, Rio. The girl who rejected you so many times is now sitting here, writing a whole birthday surprise for you, trying to put into words how much you mean to her. The same girl who once didn't know how to respond to your feelings now has so many feelings for you that even a thousand words don't seem enough. 😭❤️
+          </p>
+
+          <p>
+            If I could meet the version of you from our second year, I would hug him and tell him, "You don't know it yet, but one day, all these little conversations and all your efforts will become some of the most precious memories of your life. Please don't lose your beautiful heart." 🥹🫂
+          </p>
+
+          <p>
+            And if I could meet the version of myself who kept rejecting you, I would tell her that sometimes life brings someone into your world in the most unexpected way. You may not understand their importance at first, but one day you might look back and realize that your story was quietly becoming something beautiful. 💗
+          </p>
+
+          <p>
+            Rio, I can't go back and change how I treated your feelings in the beginning. But I can tell you how grateful I am that our story continued, that we got to know each other better, and that I eventually found the courage to tell you what was in my heart.
+          </p>
+
+          <p>
+            You were the boy who kept trying, even when I kept saying no. And now, you're the boy I want to make beautiful memories with, laugh with, annoy endlessly, and celebrate so many more birthdays with. ❤️🎂
+          </p>
+
+          <p>
+            Maybe our love story didn't begin with a yes. Maybe it began with rejections, confusion, and a boy who refused to give up on his feelings. But today, I'm so happy that our story didn't end there.
+          </p>
+
+          <p>
+            Happy Birthday, my Rio. 💋❤️ If I could give this little gift a title, it would be: "From all those No's to a love that finally became Ours." 🥹💗
+          </p>
+
+          <p class="gift-emojis">💐💗🎂🫂❤️</p>
+        <button id="celebrateButton" type="button">Celebrate! 🎉</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BOYFRIEND SURVIVAL TEST -->
+  <section id="boyfriend-survival" class="section survival-section" hidden>
+    <div class="content-card survival-card">
+      <p class="eyebrow">BONUS LEVEL 💀❤️</p>
+      <h2>Boyfriend Survival Test 😂</h2>
+      <p class="subtitle">Rio, let's see if you're ready for the ultimate boyfriend exam!</p>
+      <div class="survival-status">
+        <span>Challenge <strong id="survivalProgress">1 / 7</strong></span>
+        <span>Score <strong id="survivalScore">0</strong></span>
+      </div>
+      <div id="survivalIntro">
+        <div class="survival-emoji">😎💗</div>
+        <p>Rules are simple: choose your answer wisely. Your girlfriend's imaginary court is watching. No pressure. 😂</p>
+        <button id="startSurvival" type="button">Take the Test 💀</button>
+      </div>
+      <div id="survivalQuestionArea" hidden>
+        <h3 id="survivalQuestion" class="quiz-question"></h3>
+        <div id="survivalOptions" class="quiz-options"></div>
+        <p id="survivalFeedback" class="feedback" aria-live="polite"></p>
+        <button id="survivalNext" type="button" hidden>Next Challenge ➜</button>
+      </div>
+      <div id="survivalResult" hidden>
+        <div id="survivalResultEmoji" class="survival-emoji">🏆</div>
+        <h3 id="survivalResultTitle">You survived!</h3>
+        <p id="survivalResultText"></p>
+        <p class="survival-love-note">Despite all the chaos, you are still Ashwini's favourite human. Unfortunately for you. ❤️😂</p>
+        <button id="survivalContinue" type="button">Claim My Birthday Coupons 🎟️</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIRTHDAY COUPONS -->
+  <section id="coupons" class="section coupons-section" hidden>
+    <h2>🎟️ Birthday Coupons 🎀</h2>
+    <p class="subtitle">A little gift for my favorite person! ❤️</p>
+    <div class="coupon-container">
+      <article class="coupon"><div class="coupon-icon">🫂</div><h3>One Tight Hug</h3><p>Redeem anytime!</p><button type="button" onclick="redeemCoupon('One Tight Hug')">Redeem 💗</button></article>
+      <article class="coupon"><div class="coupon-icon">🎬</div><h3>Movie Date</h3><p>One movie date with me!</p><button type="button" onclick="redeemCoupon('Movie Date')">Redeem 💗</button></article>
+      <article class="coupon"><div class="coupon-icon">🏍️</div><h3>Long Bike Ride</h3><p>Just you, me, and the road!</p><button type="button" onclick="redeemCoupon('Long Bike Ride')">Redeem 💗</button></article>
+      <article class="coupon"><div class="coupon-icon">🍕</div><h3>Your Choice Date</h3><p>You choose where we go!</p><button type="button" onclick="redeemCoupon('Your Choice Date')">Redeem 💗</button></article>
+    </div>
+    <p class="coupon-footer">Made with love, especially for Rio ❤️</p>
+  </section>
+
+  <!-- FINAL -->
+  <section id="final" class="final-section">
+    <div class="final-heart">💖</div>
+    <h2>Happy Birthday, Rio!</h2>
+    <p>Thank you for being you, for all the smiles, the laughter, and the beautiful memories. Here's to more adventures, more dreams, and more moments together. ❤️</p>
+    <p class="forever">I love you, always &amp; forever! 💗</p>
+    <button type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})">Back to the beginning ↑</button>
+  </section>
+</main>
+
+<footer>Made with endless love by Ashwini 💗</footer>
+
+<!-- COUPON POPUP -->
+<div id="couponPopup" class="coupon-popup" aria-hidden="true">
+  <div class="popup-content" role="dialog" aria-modal="true" aria-labelledby="popupHeading">
+    <button class="close-btn" id="closeCouponButton" type="button" aria-label="Close popup">×</button>
+    <div class="popup-heart">💗</div>
+    <h2 id="popupHeading">Coupon Redeemed! 🎉</h2>
+    <h3 id="couponTitle"></h3>
+    <p id="couponMessage"></p>
+    <button type="button" onclick="closeCoupon()">Yay! ❤️</button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  // EmailJS setup: keep your existing public key, service ID and template ID.
+  emailjs.init({ publicKey: "ICGVS4qTbFSMh4uM_" });
+
+  // Floating hearts
+  function createHeart() {
+    const heart = document.createElement("div");
+    heart.className = "floating-heart";
+    heart.textContent = ["💗", "💕", "💖", "♡", "❤️"][Math.floor(Math.random() * 5)];
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (14 + Math.random() * 22) + "px";
+    heart.style.animationDuration = (5 + Math.random() * 4) + "s";
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 9000);
+  }
+  setInterval(createHeart, 650);
+
+  function launchConfetti() {
+    const symbols = ["🎉", "💖", "✨", "💕", "🎊"];
+    for (let i = 0; i < 35; i++) {
+      const item = document.createElement("span");
+      item.textContent = symbols[Math.floor(Math.random() * symbols.length)];
+      item.className = "confetti";
+      item.style.left = Math.random() * 100 + "vw";
+      item.style.fontSize = (18 + Math.random() * 20) + "px";
+      item.style.setProperty("--drift", ((Math.random() - 0.5) * 250) + "px");
+      item.style.setProperty("--fall", (500 + Math.random() * 400) + "px");
+      item.style.animationDuration = (1.8 + Math.random() * 1.2) + "s";
+      document.body.appendChild(item);
+      setTimeout(() => item.remove(), 3300);
+    }
+  }
+
+  // HEART HUNTER: win unlocks the first letter only.
+  const heartField = document.getElementById("heartPlayfield");
+  const startHeartGame = document.getElementById("startHeartGame");
+  let heartScore = 0;
+  let timeLeft = 30;
+  let gameRunning = false;
+  let gameTimer = null;
+  let spawnTimer = null;
+
+  function clearHeartGame() {
+    clearInterval(gameTimer);
+    clearInterval(spawnTimer);
+    heartField.replaceChildren();
+  }
+
+  function spawnGameHeart() {
+    if (!gameRunning) return;
+    const heart = document.createElement("button");
+    heart.type = "button";
+    heart.className = "game-heart";
+    heart.textContent = ["💗", "💖", "💕", "❤️"][Math.floor(Math.random() * 4)];
+    heart.setAttribute("aria-label", "Catch this heart");
+    heart.style.left = Math.random() * 84 + "%";
+    heart.style.top = Math.random() * 72 + "%";
+    heart.addEventListener("click", () => {
+      if (!gameRunning) return;
+      heartScore++;
+      document.getElementById("heartScore").textContent = heartScore;
+      heart.remove();
+      if (heartScore >= 10) winHeartGame();
+    });
+    heartField.appendChild(heart);
+    setTimeout(() => heart.remove(), 1700);
+  }
+
+  function winHeartGame() {
+    gameRunning = false;
+    clearHeartGame();
+    document.getElementById("heartMessage").textContent = "You won, Rio! Your first secret letter is unlocked! 💌";
+    document.getElementById("letter").hidden = false;
+    document.getElementById("letterNav").hidden = false;
+    launchConfetti();
+    document.getElementById("letter").scrollIntoView({ behavior: "smooth", block: "start" });
+    startHeartGame.textContent = "You Won! 💖";
+    startHeartGame.disabled = true;
+  }
+
+  startHeartGame.addEventListener("click", () => {
+    clearHeartGame();
+    heartScore = 0;
+    timeLeft = 30;
+    gameRunning = true;
+    document.getElementById("heartScore").textContent = "0";
+    document.getElementById("heartTime").textContent = "30";
+    document.getElementById("heartMessage").textContent = "Catch 10 hearts before the timer ends! 💗";
+    spawnGameHeart();
+    spawnTimer = setInterval(spawnGameHeart, 500);
+    gameTimer = setInterval(() => {
+      timeLeft--;
+      document.getElementById("heartTime").textContent = timeLeft;
+      if (timeLeft <= 0 && heartScore < 10) {
+        gameRunning = false;
+        clearHeartGame();
+        document.getElementById("heartMessage").textContent = "Time's up! Try again, Rio—you can do it! 💕";
+      }
+    }, 1000);
+  });
+
+  // LETTER: opening it unlocks the quiz.
+  document.getElementById("openLetterButton").addEventListener("click", () => {
+    document.getElementById("letterPaper").hidden = false;
+    document.getElementById("openLetterButton").hidden = true;
+    document.getElementById("quizNav").hidden = false;
+    document.getElementById("love-quiz").hidden = false;
+    document.getElementById("love-quiz").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  document.getElementById("continueToQuiz").addEventListener("click", () => {
+    document.getElementById("love-quiz").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  // PERSONAL LOVE QUIZ. Text questions are intentionally open-ended.
+  const questions = [
+    { q: "What is something I do that makes you fall in love with me all over again? 💕", type: "text" },
+    { q: "Who gets jealous more easily? 🙈", options: ["Ashwini 💗", "Rio ❤️", "Both 😂"], answer: 1 },
+    { q: "Who is more sensitive? 🥺", options: ["Rio ❤️", "Ashwini 💗", "Both 🫶"], answer: 1 },
+    { q: "What can instantly make me happy? 💗",type: "text",answer: "The way you treat me"},
+    { q: 'Who said "I love you" first? ❤️', options: ["Ashwini 💗", "Rio ❤️", "Both together 🥹"], answer: 1 },
+    { q: "Who is more likely to start a silly fight? 💗", options: ["Ashwini 😂", "Rio 😎", "Both 🤭"], answer: 0 },
+    { q: "When did you realise you were truly in love with me? 🥹", type: "text" },
+    { q: "Who would win a competition to annoy each other? 🤣", options: ["Ashwini 😌", "Rio 😂", "It's a tie 💗"], answer: 1 },
+    { q: "Who gets angry faster? 😤", options: ["Rio ❤️", "Ashwini 😤", "Both 😂"], answer: 1 },
+    { q: "What's one thing I ask for? 💌",type: "text",answer: "Food"},
+    { q: "Who plans more things about our future? 💍", options: ["Ashwini 💗", "Rio ❤️", "Both 🥰"], answer: 1 },
+    { q: "If you had only one sentence to describe our love story, what would you say? ❤️", type: "text" },
+    { q: "Who is more dramatic? 😂", options: ["Rio 😎", "Ashwini 😂", "Both 🤣"], answer: 1 },
+    { q: "Who misses the other person more? 🫂", options: ["Ashwini 💗", "Rio ❤️", "Both 🥹"], answer: 1 },
+    { q: "Who can never stay angry for too long? 🥰", options: ["Rio 😤", "Ashwini 💗", "Both 😂"], answer: 1 },
+    { q: "Who fell harder in the end? 💘", options: ["Ashwini 💗", "Rio ❤️", "Both 🥹"], answer: 1 },
+    { q: "Who is more stubborn during an argument? 😏", options: ["Rio 😎", "Ashwini 😏", "Both 😂"], answer: 1 },
+    { q: "Who fell in love first? 🥹", options: ["Ashwini 💗", "Rio ❤️", "At the same time 💕"], answer: 1 },
+    { q: "Who apologises first after a fight? 🫣", options: ["Ashwini ❤️", "Rio 💗", "Depends on the fight 😂"], answer: 1 },
+    { q: "Who is more obsessed with the other? 🤭", options: ["Ashwini 💗", "Rio ❤️", "Both of us 🥰"], answer: 1 }
+  ];
+
+  let questionIndex = 0;
+  let selectedAnswer = null;
+  let quizLockedForSubmit = false;
+  let quizScore = 0;
+  const quizAnswers = [];
+
+  function renderQuestion() {
+    const item = questions[questionIndex];
+    selectedAnswer = null;
+    quizLockedForSubmit = false;
+    document.getElementById("quizProgress").textContent = `Question ${questionIndex + 1} of ${questions.length}`;
+    document.getElementById("quizQuestion").textContent = item.q;
+    document.getElementById("quizFeedback").textContent = "";
+    document.getElementById("quizOptions").replaceChildren();
+    document.getElementById("quizAnswer").value = "";
+    document.getElementById("quizAnswer").hidden = item.type !== "text";
+    document.getElementById("quizSubmit").hidden = false;
+    document.getElementById("quizNext").hidden = true;
+
+    if (item.type === "text") return;
+    item.options.forEach((option, i) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = option;
+      button.addEventListener("click", () => {
+        selectedAnswer = i;
+        document.querySelectorAll("#quizOptions button").forEach(b => b.classList.remove("selected"));
+        button.classList.add("selected");
+      });
+      document.getElementById("quizOptions").appendChild(button);
+    });
+  }
+
+    document.getElementById("quizSubmit").addEventListener("click", () => {
+      if (quizLockedForSubmit) return;
+
+      const item = questions[questionIndex];
+      let answerText = "";
+
+      if (item.type === "text") {
+        answerText = document.getElementById("quizAnswer").value.trim();
+
+        if (!answerText) {
+          document.getElementById("quizFeedback").textContent =
+            "Write your answer first, Rio! 💗";
+          return;
+        }
+
+        document.getElementById("quizFeedback").textContent =
+          "Aww, thank you for sharing that with me! 💖";
+      } else {
+        if (selectedAnswer === null) {
+          document.getElementById("quizFeedback").textContent =
+            "Choose an answer first! ❤️";
+          return;
+        }
+
+        answerText = item.options[selectedAnswer];
+
+        // Count correct multiple-choice answers only.
+        if (selectedAnswer === item.answer) {
+          quizScore++;
+          document.getElementById("quizScore").textContent = quizScore;
+          document.getElementById("quizFeedback").textContent =
+            "That's the answer your girl picked! 💖";
+        } else {
+          document.getElementById("quizFeedback").textContent =
+          "Aww, not quite! The expected answer was " +
+          item.options[item.answer] + " 💗";
+        }
+      }
+
+      quizAnswers[questionIndex] = {
+        question: item.q,
+        answer: answerText
+      };
+
+      quizLockedForSubmit = true;
+
+      document.getElementById("quizSubmit").hidden = true;
+      document.getElementById("quizNext").hidden = false;
+      document.getElementById("quizNext").textContent =
+        questionIndex === questions.length - 1
+          ? "Final Love Challenge 💌"
+          : "Next Question ➜";
+    });
+
+  document.getElementById("quizNext").addEventListener("click", () => {
+    if (questionIndex < questions.length - 1) {
+      questionIndex++;
+      renderQuestion();
+      return;
+    }
+    document.getElementById("quizProgress").hidden = true;
+    document.getElementById("quizQuestion").hidden = true;
+    document.getElementById("quizOptions").hidden = true;
+    document.getElementById("quizAnswer").hidden = true;
+    document.getElementById("quizSubmit").hidden = true;
+    document.getElementById("quizNext").hidden = true;
+    document.getElementById("quizFeedback").hidden = true;
+    const totalQuestions = questions.filter(
+      item => item.type !== "text"
+    ).length;
+    const scoreMessage = document.getElementById("scoreMessage");
+      if (quizScore === totalQuestions) {
+        scoreMessage.textContent =
+          `Rio, your score is ${quizScore}/${totalQuestions}! 💗 ` +
+          "PERFECT SCORE! You know our love story by heart! 🥹❤️";
+      } else if (quizScore >= totalQuestions * 0.75) {
+        scoreMessage.textContent =
+          `Rio, your score is ${quizScore}/${totalQuestions}! 💗 ` +
+          "Amazing! You know us so well! 💕";
+      } else if (quizScore >= totalQuestions * 0.5) {
+        scoreMessage.textContent =
+          `Rio, your score is ${quizScore}/${totalQuestions}! 💗 ` +
+          "Not bad, birthday boy! More memories to make! 😘";
+      } else {
+        scoreMessage.textContent =
+          `Rio, your score is ${quizScore}/${totalQuestions}! 💗 ` +
+          "More dates and memories needed, mister! 😂💗";
+      }
+    document.getElementById("finalChallenge").hidden = false;
+  });
+
+ // Final answer unlocks the gift after all quiz answers are emailed.
+  document.getElementById("submitFinalAnswer").addEventListener("click", async () => {
+  const answerBox = document.getElementById("finalAnswer");
+  const submitButton = document.getElementById("submitFinalAnswer");
+  const finalAnswer = answerBox.value.trim();
+
+  if (!finalAnswer) {
+    answerBox.focus();
+    answerBox.placeholder = "Tell me what's in your heart first, Rio... 💗";
+    return;
+  }
+
+  // Make sure every quiz question has an answer.
+  if (quizAnswers.length !== questions.length ||
+      quizAnswers.some(item => !item)) {
+    alert("Some quiz answers are missing. Please complete the quiz again. 💗");
+    return;
+  }
+
+  // Format all 20 answers into one readable email.
+  const formattedAnswers = quizAnswers
+    .map((item, index) =>
+      `${index + 1}. ${item.question}\nRio's answer: ${item.answer}`
+    )
+    .join("\n\n");
+
+  submitButton.disabled = true;
+  submitButton.textContent = "Sending your love letter... 💌";
+
+try {
+  const totalQuestions = questions.filter(
+    item => item.type !== "text"
+  ).length;
+
+  await emailjs.send("service_17", "template_6yoezjm", {
+    quiz_answers: formattedAnswers,
+    final_answer: finalAnswer,
+    quiz_score: `${quizScore}/${totalQuestions}`,
+    submitted_at: new Date().toLocaleString()
+  });
+
+    alert("Rio's answers have been sent to your email! 💌❤️");
+
+    // Unlock the gift after the email sends successfully.
+    document.getElementById("gift").hidden = false;
+    document.getElementById("giftNav").hidden = false;
+    launchConfetti();
+
+    document.getElementById("gift").scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+
+  } catch (error) {
+    console.error("Love Quiz email failed:", error);
+
+    alert(
+      "The answers could not be emailed yet. Please check your internet " +
+      "connection and EmailJS template settings, then try again. 💗"
+    );
+  } finally {
+    submitButton.disabled = false;
+    submitButton.textContent = "Unlock My Special Gift 🎁";
+  }
+});
+
+  // Gift opens only after quiz challenge has been completed.
+  
+document.getElementById("openGiftButton").addEventListener("click", () => {
+  document.getElementById("surprise").hidden = false;
+  document.getElementById("openGiftButton").hidden = true;
+
+  // Unlock the Boyfriend Survival Test
+  survivalSection.hidden = false;
+  survivalNav.hidden = false;
+
+  launchConfetti();
+
+  survivalSection.scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
+
+  document.getElementById("celebrateButton").addEventListener("click", launchConfetti);
+
+
+  // BOYFRIEND SURVIVAL TEST: silly scenarios with playful, prewritten outcomes.
+ 
+const survivalQuestions = [
+  {
+    q: "1. What was my first reaction when you proposed to me? 💌",
+    options: [
+      "A) I accepted immediately 😍",
+      "B) I rejected you many times 🙈",
+      "C) I ignored you forever 😂",
+      "D) I proposed to you first ❤️"
+    ],
+    answer: 1,
+    right: "You remember our story! 🥹❤️",
+    wrong: "Wrong answer, Rio! 😭 Remember how our story began! 💗"
+  },
+  {
+    q: "2. What finally made me fall in love with you? 🥹",
+    options: [
+      "A) Your money 💸",
+      "B) Your looks 😎",
+      "C) Your patience and never giving up on me 💗",
+      "D) Your bike 🏍️"
+    ],
+    answer: 2,
+    right: "You know how you won my heart! 💖",
+    wrong: "It was your patience and love, Rio! 🥹❤️"
+  },
+  {
+    q: "3. When I'm angry, what should you do? 😤",
+    options: [
+      "A) Argue with me more 😂",
+      "B) Disappear for three days 👻",
+      "C) Calm me down and give me love 🫂",
+      'D) Say "You\'re always like this!" 💀'
+    ],
+    answer: 2,
+    right: "That's my boy! Give me all the love! 🫂❤️",
+    wrong: "Careful, Rio! That's not the safest answer! 😂"
+  },
+  {
+    q: "4. What do I love most about our relationship? 💕",
+    options: [
+      "A) Our silly fights 😂",
+      "B) Our romantic moments 😘",
+      "C) Our long conversations 📱",
+      "D) All our little moments together — fights, love, and memories 🥹❤️"
+    ],
+    answer: 3,
+    right: "Every little moment makes us US! 🥹💕",
+    wrong: "It's all our moments together, Rio! ❤️"
+  },
+  {
+    q: '5. If I say "I\'m fine," what should you do? 👀',
+    options: [
+      "A) Believe me immediately 😌",
+      'B) Say "Okay" and leave 💀',
+      "C) Give me attention and ask what's wrong 🫶",
+      "D) Start playing games 🎮"
+    ],
+    answer: 2,
+    right: "Look at you understanding me! 🫶❤️",
+    wrong: "Riooo! Try giving your girl some attention! 😂💗"
+  },
+  {
+    q: "6. What would I choose for a perfect date with you? 🥹❤️",
+    options: [
+      "A) A long bike ride together 🏍️",
+      "B) A cute movie date 🎬",
+      "C) A food date — eating all our favourite foods together 🍕🍔",
+      "D) All of the above! 🥰"
+    ],
+    answer: 3,
+    right: "Bike rides, movies, food, and YOU! Perfect! 🏍️🎬🍕❤️",
+    wrong: "Rio, I want all the fun with you! 😂💕"
+  },
+  {
+    q: "7. What is the one thing I would never want to lose in our relationship? 🥹❤️",
+    options: [
+      "A) Our cute fights 😂",
+      "B) Our late-night talks 🌙",
+      "C) The way we care for each other 🫂",
+      "D) Everything about us — our fights, talks, care, love, and beautiful bond forever 🥹💗"
+    ],
+    answer: 3,
+    right: "YES! Everything about us, forever! 🥹❤️",
+    wrong: "It's EVERYTHING about us, Rio! Our whole bond! 💗"
+  }
+];
+
+  let survivalIndex = 0;
+  let survivalScore = 0;
+  let survivalAnswered = false;
+
+  const survivalSection = document.getElementById("boyfriend-survival");
+  const survivalNav = document.getElementById("survivalNav");
+
+  function showSurvivalQuestion() {
+    const item = survivalQuestions[survivalIndex];
+    survivalAnswered = false;
+    document.getElementById("survivalProgress").textContent = `${survivalIndex + 1} / ${survivalQuestions.length}`;
+    document.getElementById("survivalQuestion").textContent = item.q;
+    document.getElementById("survivalFeedback").textContent = "";
+    document.getElementById("survivalNext").hidden = true;
+    const options = document.getElementById("survivalOptions");
+    options.replaceChildren();
+    item.options.forEach((option, index) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = option;
+      button.addEventListener("click", () => {
+        if (survivalAnswered) return;
+        survivalAnswered = true;
+        options.querySelectorAll("button").forEach((b, i) => {
+          b.disabled = true;
+          if (i === item.answer) b.classList.add("selected");
+        });
+        if (index === item.answer) {
+          survivalScore++;
+          document.getElementById("survivalScore").textContent = survivalScore;
+          document.getElementById("survivalFeedback").textContent = item.right;
+        } else {
+          button.classList.add("survival-wrong");
+          document.getElementById("survivalFeedback").textContent = item.wrong;
+        }
+        document.getElementById("survivalNext").hidden = false;
+        document.getElementById("survivalNext").textContent =
+          survivalIndex === survivalQuestions.length - 1 ? "Reveal My Verdict ⚖️" : "Next Challenge ➜";
+      });
+      options.appendChild(button);
+    });
+  }
+
+  function finishSurvivalTest() {
+    document.getElementById("survivalQuestionArea").hidden = true;
+    document.getElementById("survivalResult").hidden = false;
+    let emoji, title, message;
+    if (survivalScore >= 6) {
+      emoji = "🏆💗";
+      title = "Boyfriend of the Year!";
+      message = `You scored ${survivalScore}/7. Rio, you survived with style! Ashwini is still keeping an eye on you, though. 😂`;
+    } else if (survivalScore >= 3) {
+      emoji = "😅❤️";
+      title = "Survived… Just!";
+      message = `You scored ${survivalScore}/7. You're out of the courtroom, but your boyfriend training continues at home. 😂`;
+    } else {
+      emoji = "💀🌹";
+      title = "We Need to Talk, Rio…";
+      message = `You scored ${survivalScore}/7. The good news: you're still loved. The bad news: this test may be brought up forever. 🤣`;
+    }
+    document.getElementById("survivalResultEmoji").textContent = emoji;
+    document.getElementById("survivalResultTitle").textContent = title;
+    document.getElementById("survivalResultText").textContent = message;
+    launchConfetti();
+  }
+
+  document.getElementById("startSurvival").addEventListener("click", () => {
+    survivalIndex = 0;
+    survivalScore = 0;
+    document.getElementById("survivalScore").textContent = "0";
+    document.getElementById("survivalIntro").hidden = true;
+    document.getElementById("survivalResult").hidden = true;
+    document.getElementById("survivalQuestionArea").hidden = false;
+    showSurvivalQuestion();
+  });
+
+  document.getElementById("survivalNext").addEventListener("click", () => {
+    if (!survivalAnswered) return;
+    if (survivalIndex < survivalQuestions.length - 1) {
+      survivalIndex++;
+      showSurvivalQuestion();
+    } else {
+      finishSurvivalTest();
+    }
+  });
+
+  document.getElementById("survivalContinue").addEventListener("click", () => {
+  document.getElementById("coupons").hidden = false;
+  document.getElementById("couponsNav").hidden = false;
+  document.getElementById("coupons").scrollIntoView({
+    behavior: "smooth",
+    block: "start"
+  });
+});
+
+  // Birthday coupons + EmailJS notifications (same service/template).
+  function redeemCoupon(name) {
+    const messages = {
+      "One Tight Hug": "Come here, birthday boy! Your special hug is waiting! 🥹❤️",
+      "Movie Date": "Movie date with your favorite girl! You choose the movie, and I'll bring the popcorn! 🍿💕",
+      "Long Bike Ride": "Let's go for a long ride together, just you and me! ❤️",
+      "Your Choice Date": "Today, you choose where we go and what we eat. It's all about you! 🥰"
+    };
+    document.getElementById("couponTitle").textContent = name;
+    document.getElementById("couponMessage").textContent = messages[name] || "A little surprise, made with love! ❤️";
+    const popup = document.getElementById("couponPopup");
+    popup.classList.add("show");
+    popup.setAttribute("aria-hidden", "false");
+
+    emailjs.send("service_17", "template_xekrld5", {
+      coupon_name: name,
+      redeemed_at: new Date().toLocaleString()
+    }).then(response => {
+      console.log("Email sent successfully!", response.status);
+    }).catch(error => {
+      console.error("Email sending failed:", error);
+    });
+  }
+  window.redeemCoupon = redeemCoupon;
+
+  function closeCoupon() {
+    const popup = document.getElementById("couponPopup");
+    popup.classList.remove("show");
+    popup.setAttribute("aria-hidden", "true");
+  }
+  window.closeCoupon = closeCoupon;
+  document.getElementById("closeCouponButton").addEventListener("click", closeCoupon);
+  document.getElementById("couponPopup").addEventListener("click", event => {
+    if (event.target.id === "couponPopup") closeCoupon();
+  });
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") closeCoupon();
+  });
+
+  renderQuestion();
+</script>
+</body>
+</html>
